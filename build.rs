@@ -5,7 +5,7 @@ use std::path::PathBuf;
 fn main() {
     println!("cargo:rustc-link-lib=framework=Accelerate");
     // Tell cargo to invalidate the built crate whenever the wrapper changes
-    println!("cargo:rerun-if-changed=wrapper.h");
+    println!("cargo:rerun-if-changed=headers/blas.h");
 
     let sdk = std::process::Command::new("xcrun")
         .args("--sdk macosx --show-sdk-path".split(" "))

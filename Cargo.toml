@@ -4,13 +4,12 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Congyu Wang"]
 description = "Apple's vecLib Binding to Rust"
-include = ["*"]
+include = ["headers", "src", ".cargo"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
 crate-type = ["lib"]
-path = "src/lib.rs"
 
 [build-dependencies]
 bindgen = "0.63.0"

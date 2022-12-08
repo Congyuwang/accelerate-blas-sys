@@ -8,5 +8,8 @@ include = [".cargo"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+crate-type = ["lib"]
+
 [build-dependencies]
 bindgen = "0.63.0"

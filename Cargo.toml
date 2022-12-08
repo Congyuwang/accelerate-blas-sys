@@ -6,7 +6,6 @@ authors = ["Congyu Wang"]
 description = "Apple's vecLib Binding to Rust"
 include = ["headers", "src", ".cargo"]
 license = "MIT"
-license-file = "LICENSE.txt"
 repository = "https://github.com/Congyuwang/accelerate-blas-sys"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
